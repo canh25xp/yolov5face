@@ -28,7 +28,7 @@ int main(int argc, char **argv){
     face_detector.draw(m, objects);
 
     cv::imshow("output",m);
-    cv::imwrite("test.jpg",m);
+    cv::imwrite("output.jpg",m);
     cv::waitKey();
 
     return 0;
